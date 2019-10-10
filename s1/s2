@@ -1,1 +1,147 @@
-hello world
+git config --global user.email "sravanthireddy95.n@gmail.com"
+
+
+
+[‎07-‎10-‎2019 15:00]  Gnanesh Boosipalli:  
+Installation 
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins 
+ 
+
+
+
+git clone https://github.com/Jsuresh47/devops-traine.git
+    2  cd devops-traine/
+    3  ls -lrt
+    4  vi first
+    5  git add .
+    6  git commit -m "first modified"
+    7  git config --global user.email "sravanthireddy95.n@gmail.com"
+    8  git config --global user.name "sravanthi9595"
+    9  git commit -m "first modified"
+   10  git push origin master
+   11  cd ..
+   12  git clone https://github.com/sravanthi9595/devops.git
+   13  cd devops
+   14  ls -lrt
+   15  vi g4
+   16  git add g4
+   17  git commit -m "g4 created"
+   18  git push origin master
+   19  git pull https://github.com/sravanthi9595/devops.git
+   20  vi g4
+   21  cat g4
+   22  git add g4
+   23  git commit -m "g4 modified"
+   24  git push origin master
+   25  touch v1
+   26  vi v1
+   27  git add .
+   28  git commit -m 
+   29  git commit -m "v1 created"
+   30  git push origin future
+   31  git clone https://github.com/sravanthi9595/devops.git
+   32  touch v1
+   33  vi v1
+   34  git add .
+   35  cd ..
+   36  git clone https://github.com/sravanthi9595/devops.git
+   37  vi v1
+   38  cd devops
+   39  vi v1
+   40  git add .
+   41  git commit -m "v1 created"
+   42  git push origin future
+   43  git checkout future
+   44  ls
+   45  vi v1
+   46  vi v1
+   47  git add .
+   48  cd ..
+   49  cd ..
+   50  git -v
+   51  git --version
+   52  git clone https://github.com/sravanthi9595/new.git
+   53  cd new
+   54  vi v1
+   55  git add .
+   56  git commit -m "v1 created"
+   57  git push origin master
+   58  git branch
+   59  git branch future
+   60  git branch
+   61  git checkout
+   62  git checkout future
+   63  ls
+   64  vi v1
+   65  git add .
+   66  git commit -m "v1 modified"
+   67  git push origin future
+   68  git checkout master
+   69  ls
+   70  vi v1
+   71  git add .
+   72  git commit -m "v1 modified"
+   73  git merge future
+   74  cat v1
+   75  git merge future
+   76  git checkout master
+   77  git checkout future
+   78  cat v1
+   79  git log
+   80  git log --oneline
+   81  git log --authour="sravanthi9595"
+   82  git log --author="sravanthi9595"
+   83  git show 95861d7b5bb388d20ee64f8af80fd96b42df6469
+   84  git log --since=19-10-03
+   85  git log --until=19-10-03
+   86  cd ..
+   87  cd ..
+   88  history
+
+
+
+
+
+creation of tag:   git tag v-1.1
+to show list:   git tag
+
+
+
+
+ 1  git init
+    2  git clone https://github.com/sravanthi9595/devops.git
+    3  cd devops
+    4  ls -lrt
+    5  ls
+    6  touch v2
+    7  vi v2
+    8  git add v2
+    9  git commit -m "v2 created"
+   10  git config --global user.email "sravanthireddy95.n@gmail.com"
+   11  git config --global user.name "sravanthi9595"
+   12  git commit -m "v2 created"
+   13  git push origin master
+   14  git pull
+   15  git fetch
+   16  git branch -r
+   17  git merge
+tags creation
+   18  ls -lrt
+   19  cat futurefile
+   20  git log --oneline
+   21  git tag
+   22  git tag v-1.1
+   23  git tag
+   24  git log --oneline
+   25  git push --tags
+   26  git tag v-1.2
+   27  git tag v-1.3 413c601
+   28  git log --oneline
+   29  git push --tags
+   30  git tag -d v-1.2
+   31  git tag
+   32  git push origin -d v-1.2
+   33  historyhello world
